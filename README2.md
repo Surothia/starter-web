@@ -21,6 +21,10 @@ This is a simple web project deployement can be
 on any web server or even 
 local file system.
 
+## Copyright
+
+All right reserved ashu2code
+
 ## How to Contribute
 =======
 ## How to Contribute
