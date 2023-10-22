@@ -1,0 +1,42 @@
+public class RecursionExample {
+    public static void main(String[] args) {
+        int number = 5;
+        int result = factorial(number);
+        System.out.println("Factorial of " + number + " is " + result);
+    }
+
+    public static int factorial(int n) {
+        if (n == 0) {
+            return 1;
+        } else {
+            return n * factorial(n - 1);
+        }
+    }
+}
+
+
+ Vestibulum nunc diam, sagittis sit amet nunc eget, pretium finibus massa. Morbi elementum tortor elit, viverra ultricies sapien fermentum id. Nulla condimentum eget tortor vel luctus. Nullam feugiat mi dui, in mollis nulla fringilla tempus. Etiam sodales accumsan massa vel consectetur. Morbi eget tincidunt lacus. Aenean pulvinar odio quis finibus egestas. In ex arcu, imperdiet eget orci in, tempor scelerisque sem. In a elementum urna. Vivamus fringilla mauris a iaculis rutrum. Vestibulum condimentum finibus massa, ultrices pretium magna iaculis ut. Donec sagittis luctus nisl, in hendrerit tortor elementum eu. Praesent dignissim nulla sed metus dapibus volutpat. Sed ac tristique augue, eget sodales nibh.
+
+Vestibulum malesuada ullamcorper tempor. Vestibulum vel erat nec felis convallis consequat. Sed vestibulum rhoncus est, sed suscipit arcu varius sed. Curabitur vel neque ipsum. Pellentesque rutrum urna ipsum, nec tempus erat suscipit vel. Nulla turpis metus, accumsan vel enim eget, facilisis ullamcorper eros. Suspendisse eget velit interdum tellus lobortis gravida at ac elit. Pellentesque dui velit, tempor ac malesuada et, blandit porttitor diam. Pellentesque sollicitudin commodo urna ut blandit. Ut ornare nec sem in elementum. Phasellus non odio quis nisi consectetur lobortis.
+
+Nullam quis elementum nisi. Curabitur ultrices dolor ante, ut dignissim nunc pretium malesuada. Mauris placerat nibh in urna vulputate vulputate. Vivamus nisl nulla, mattis non dui at, viverra auctor velit. Integer nec leo mi. Fusce a accumsan erat. In nec hendrerit libero.
+
+Pellentesque hendrerit sit amet orci ut cursus. Donec non maximus est, vel hendrerit mauris. Fusce porta quam sit amet tortor convallis suscipit. Ut ultrices euismod est. Nunc iaculis ex vitae vehicula imperdiet. Maecenas in luctus ligula, non dapibus nisl. Phasellus placerat velit vitae semper rutrum. In cursus mattis metus sed auctor. Maecenas nunc nunc, pellentesque non ligula a, luctus lacinia ante. Curabitur in mauris vel ex volutpat aliquet.
+
+Vestibulum porttitor eros in urna posuere sodales. Pellentesque nec volutpat nulla, ut facilisis tortor. Donec varius interdum cursus. Sed vitae tempor dui. Sed quis aliquet purus, id pulvinar ligula. Morbi eget sodales lacus, in malesuada tortor. In molestie libero massa, varius suscipit erat congue at. In ac est eu leo feugiat blandit id a ex. Cras semper neque sed dapibus lacinia.
+
+Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec molestie lorem at luctus malesuada. Suspendisse potenti. Phasellus egestas lectus at augue vestibulum facilisis. Pellentesque viverra a sapien eget dapibus. In tempor, metus non iaculis accumsan, felis neque blandit est, non euismod sem erat feugiat lacus. Sed porttitor ac turpis non fringilla.
+
+Vestibulum faucibus, nunc ut facilisis pellentesque, odio felis posuere quam, sit amet faucibus neque erat at leo. Pellentesque faucibus aliquam faucibus. Quisque ornare, sem ut aliquet suscipit, elit urna dictum purus, quis porttitor felis mauris sit amet augue. Aliquam erat volutpat. Phasellus auctor velit elit, a efficitur nisl venenatis ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. In feugiat, dolor ac porta aliquam, lectus ligula fringilla quam, eget pharetra orci velit id ex. Nullam faucibus ac turpis non commodo.
+
+Donec sagittis sem id velit semper vulputate. Nam tempus nisi non tellus interdum rhoncus. Vivamus turpis nulla, tristique et elit tincidunt, dictum molestie turpis. Suspendisse ultricies, dui vel dapibus lobortis, magna ipsum cursus metus, vitae fermentum velit turpis quis elit. Quisque in magna a magna pharetra malesuada. Maecenas volutpat, neque ac venenatis interdum, tellus lectus laoreet dui, ut euismod velit velit vel mi. Donec tempus quis eros in posuere.
+
+Donec metus sapien, fermentum sed porttitor vel, tempus ac elit. Maecenas a sapien suscipit, ornare quam quis, efficitur sem. Donec dignissim leo ac feugiat porttitor. Nulla pulvinar dolor eget ultricies mollis. Aliquam turpis nunc, cursus sit amet eros non, hendrerit molestie lacus. Etiam sit amet porttitor erat. Nulla euismod volutpat nibh sed rhoncus. Nullam venenatis dictum felis id semper. Suspendisse sed velit velit.
+
+Pellentesque sed enim et orci consequat dapibus in sed sem. Donec luctus turpis eros, ac scelerisque quam tristique sed. Ut vulputate justo a tortor aliquam, id vestibulum dolor congue. Nulla dapibus fringilla imperdiet. Donec eget elit ex. Curabitur id metus ultrices, tempus mi ut, gravida eros. Mauris tempus nisl id risus commodo, quis placerat augue aliquam. Fusce commodo sagittis quam, ut finibus felis molestie vel. Sed condimentum sollicitudin tempor. Maecenas condimentum nisi justo, eget pharetra eros cursus at. Nunc sed sem diam. Integer tincidunt nibh sapien, quis dignissim diam convallis euismod.
+
+Sed sit amet ultricies erat, non congue est. Nam diam ligula, iaculis quis rhoncus a, auctor id dolor. Sed euismod nunc vel justo facilisis, id fermentum massa euismod. Suspendisse at neque congue, egestas nunc eu, semper metus. Donec cursus eros augue, vel imperdiet erat venenatis et. Nullam ut volutpat sapien, eu tincidunt elit. Ut sed aliquet ipsum, sed maximus augue.
+
+Sed ultricies hendrerit justo sed ornare. Aenean in sagittis risus. Integer mattis magna nisi, at maximus sapien tincidunt ut. Pellentesque vitae ante neque. Curabitur feugiat velit in ligula fringilla ornare. Quisque tincidunt velit at dui consequat finibus. Quisque sed hendrerit lectus.
+
+Sed bibendum vestibulum volutpat. Morbi ac metus nibh. Ut vel aliquet arcu, non aliquam nulla. Ut vehicula dui vel lacinia commodo. Proin egestas ac velit vitae pellentesque. Fusce nec auctor arcu. Morbi pretium arcu in tortor varius, nec varius purus finibus. Praesent nec consequat ipsum, a pulvinar dui. Vivamus quis massa id lacus commodo molestie ut feugiat urna. Vivamus et ante egestas, lobortis purus id, consectetur lacus. Maecenas aliquam quis libero vel pretium. Curabitur ut ligula molestie, rutrum ligula vel, eleifend tortor. Ut mollis convallis posuere. Quisque dignissim lacus leo, eget rutrum metus feugiat non. 
